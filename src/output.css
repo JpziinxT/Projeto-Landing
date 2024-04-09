@@ -581,6 +581,10 @@ video {
   margin-top: 44px;
 }
 
+.mt-24{
+  margin-top: 6rem;
+}
+
 .flex{
   display: flex;
 }
@@ -627,6 +631,10 @@ video {
 
 .h-\[996px\]{
   height: 996px;
+}
+
+.h-auto{
+  height: auto;
 }
 
 .w-\[1024px\]{
@@ -723,6 +731,10 @@ video {
 
 .gap-\[64px\]{
   gap: 64px;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .rounded-\[10px\]{
@@ -839,8 +851,30 @@ video {
   padding-bottom: 25px;
 }
 
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .pb-\[192px\]{
   padding-bottom: 192px;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pl-3{
+  padding-left: 0.75rem;
 }
 
 .text-center{
@@ -887,6 +921,10 @@ video {
   font-weight: 600;
 }
 
+.leading-3{
+  line-height: .75rem;
+}
+
 .text-\[\#505050\]{
   --tw-text-opacity: 1;
   color: rgb(80 80 80 / var(--tw-text-opacity));
@@ -927,6 +965,11 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .transition{
@@ -979,4 +1022,96 @@ video {
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(94 59 238 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .lg\:h-14{
+    height: 3.5rem;
+  }
+
+  .lg\:w-64{
+    width: 16rem;
+  }
+
+  .lg\:w-96{
+    width: 24rem;
+  }
+
+  .lg\:w-72{
+    width: 18rem;
+  }
+
+  .lg\:w-9{
+    width: 2.25rem;
+  }
+
+  .lg\:w-\[\]{
+    width: ;
+  }
+
+  .lg\:w-\[500px\]{
+    width: 500px;
+  }
+
+  .lg\:w-\[80\]{
+    width: 80;
+  }
+
+  .lg\:w-\[80\%\]{
+    width: 80%;
+  }
+
+  .lg\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .lg\:w-\[40\%\]{
+    width: 40%;
+  }
+
+  .lg\:w-\[100px\]{
+    width: 100px;
+  }
+
+  .lg\:w-\[80px\]{
+    width: 80px;
+  }
+
+  .lg\:w-24{
+    width: 6rem;
+  }
+
+  .lg\:w-36{
+    width: 9rem;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
 }

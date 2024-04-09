@@ -8,6 +8,8 @@
 </head>
 
 <body class="font-Roboto h-[7296px]">
+
+    <!-- MENU -->
     <header class="flex justify-between px-[85px] py-[25px] items-center">
         <img src="./assets/img/Logo.svg">
         <nav>
@@ -27,22 +29,29 @@
             </ul>
         </nav>
         <a href="#contact">
-            <button type="submit"class="text-primary w-[170px] h-[69px] border-2 border-primary text-[21px] rounded-[5px]">Contact Me</button>
+            <button type="submit"
+                class="text-primary w-[170px] h-[69px] border-2 border-primary text-[21px] rounded-[5px] lg:h-14 lg:w-36 lg:text-xl">Contact Me</button>
         </a>
     </header>
-    <main id="home" class="bg-secondary h-[996px] flex justify-between items-center px-[85px] text-font">
-        <div class="h-[526px]">
-            <h3 class="text-[21px] font-bold">Hey, I am John</h3>
-            <h1 class="text-[74px] font-bold">I create <span class="text-primary">product design</span> and brand
+
+    <!-- APRESENTAÇÃO -->
+    <main id="home" class="bg-secondary h-auto flex justify-between items-center py-28 px-[85px] text-font">
+        <div class="h-[526px] lg:w-[500px] flex flex-col gap-3">
+            <h3 class="text-[21px] font-bold lg:text-xl">Hey, I am John</h3>
+            <h1 class="text-[74px] font-bold lg:text-5xl">I create <span class="text-primary">product design</span> and
+                brand
                 experience</h1>
-            <p class="text-[24px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            <p class="text-[24px] lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                varius enim in
                 eros elementum tristique.</p>
             <button type="submit"
-                class="mt-14 w-[170px] h-[69px] bg-primary text-white text-[21px] rounded-[5px] hover:bg-transparent hover:border-2 hover:border-primary hover:text-primary transition duration-300 hover:scale-110">Get
+                class="mt-24 w-[170px] h-[69px] bg-primary text-white text-[21px] rounded-[5px] hover:bg-transparent hover:border-2 hover:border-primary hover:text-primary transition duration-300 hover:scale-110">Get
                 in Touch</button>
         </div>
-        <img src="./assets/img/img1.svg">
+        <img src="./assets/img/img1.svg" class="lg:w-[40%]">
     </main>
+
+    <!-- HABILIDADES -->
     <section class="flex gap-[106px] flex-col px-[85px] py-[149px]">
         <div class="">
             <h2 class="text-font font-semibold text-[21px]">My skills</h2>
@@ -87,6 +96,8 @@
             </div>
         </div>
     </section>
+
+    <!-- SOBRE MIM -->
     <section id="about-me" class="flex items-center gap-[114px] px-[85px] py-[133px]">
         <img src="./assets/img/img2.svg">
         <div class="text-font">
@@ -103,6 +114,8 @@
             </p>
         </div>
     </section>
+
+    <!-- PROJETOS -->
     <section class="flex flex-col px-[85px] py-[149px] gap-[106px]">
         <header class="flex justify-between">
             <div class="text-font">
@@ -167,6 +180,8 @@
             </div>
         </aside>
     </section>
+
+    <!-- FEED-BACKS -->
     <section id="test" class="flex flex-col gap-[106px] px-[85px] py-[149px] bg-secondary">
         <div class="text-font">
             <h2 class="text-[21px] font-semibold ">Clients Feedback</h2>
@@ -211,6 +226,8 @@
             </div>
         </aside>
     </section>
+
+    <!-- FOMULARIO -->
     <form id="contact" class="flex justify-center items-center gap-[64px] flex-col px-[448px] py-[197px]">
         <div class="text-font flex flex-col items-center justify-center text-center">
             <h2 class="text-[21px] font-semibold">Get in Touch</h2>
@@ -220,23 +237,28 @@
         <div class="w-[1024px] grid grid-cols-2 items-center justify-center text-center gap-[32px]">
             <div class="flex flex-col w-[496px] h-[106px] gap-[10px]">
                 <p class="text-start text-[21px] text-font1">First name</p>
-                <input type="text" class="w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
+                <input type="text"
+                    class="outline-none pl-3 w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
             </div>
             <div class="flex flex-col w-[496px] h-[106px] gap-[10px]">
                 <p class="text-start text-[21px] text-font1">Last name</p>
-                <input type="text" class="w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
+                <input type="text"
+                    class="outline-none pl-3 w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
             </div>
             <div class="flex flex-col w-[496px] h-[106px] gap-[10px]">
                 <p class="text-start text-[21px] text-font1">Email</p>
-                <input type="text" class="w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
+                <input type="text"
+                    class="outline-none pl-3 w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
             </div>
             <div class="flex flex-col w-[496px] h-[106px] gap-[10px]">
                 <p class="text-start text-[21px] text-font1">Phone number</p>
-                <input type="text" class="w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
+                <input type="text"
+                    class="outline-none pl-3 w-[496px] h-[64px] rounded-[8px] border-[2px] border-primary ">
             </div>
             <div class="flex flex-col gap-[10px] col-span-2">
                 <p class="text-start text-[21px] text-font1">Choose a topic</p>
-                <select type="list" class="w-auto h-[64px] rounded-[8px] border-[2px] border-primary "></select>
+                <select type="list" id="selected"
+                    class="outline-none pl-3 w-auto h-[64px] rounded-[8px] border-[2px] border-primary "></select>
             </div>
             <div class="flex flex-col gap-[10px] col-span-2">
                 <p class="text-start text-[21px] text-font1">Message</p>
@@ -245,12 +267,14 @@
             </div>
             <div class="flex flex-row items-center gap-[10px] col-span-2">
                 <input id="checkbox1" type="checkbox">
-                <label for="checkbox1" class="text-[21px] text-font2">I accept the terms</label>
+                <label for="checkbox1" class="outline-none  text-[21px] text-font2">I accept the terms</label>
             </div>
         </div>
         <button
             class="flex items-center justify-center text-center text-[21px] w-[170px] h-[69px] text-white bg-primary rounded-[8px] hover:scale-110 transition">Submit</button>
     </form>
+
+    <!-- RODAPÉ -->
     <footer class="flex flex-col bg-secondary px-[85px] py-[106px]">
         <header class="flex justify-between items-center">
             <img src="./assets/img/Logo.svg" class="W-[40px]">
